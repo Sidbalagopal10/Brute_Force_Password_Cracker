@@ -7,8 +7,10 @@ Character Set: Includes a mix of numbers, lowercase and uppercase letters, and s
 Guessing Mechanism: Utilizes Python's random.choices() function to randomly select characters from the character list, forming guesses of the same length as the input password.
 Loop Until Match: The loop continues until the randomly generated guess matches the input password.
 How it Works:
-The script prompts the user to enter a password.
-It then enters a loop where it generates random guesses by selecting characters from a defined character set.
-Each guess is printed to the console, showing the progression of guesses until a match is found.
-Once the correct password is guessed, it prints "Your password is [password]."
+
+1)The script prompts the user to enter a password.
+2)It then enters a loop where it generates random guesses by selecting characters from a defined character set.
+3)Each guess is printed to the console, showing the progression of guesses until a match is found.
+4)Once the correct password is guessed, it prints "Your password is [password]."
+
 ⚠️ Disclaimer: This script is for educational purposes only. It demonstrates how brute-force attacks work in a controlled environment. Always follow ethical practices and only test with permissions.
